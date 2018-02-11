@@ -1,0 +1,176 @@
+
+@font-face {
+	font-family: code-light;
+	src: url('code_light.otf')
+}
+
+
+@font-face {
+	font-family: exo-thin;
+	src: url('exo_thin.otf')
+}
+
+body {
+	margin: none;
+	padding: none;
+	border: none;
+}
+
+div {
+	margin: none;
+	padding: none;
+	border: none;
+	display: block;
+}
+
+.main-menu {
+	width: 20%;
+	max-height: 100%;
+	background-color: white;
+	font-family: sans-serif;
+	/*background-color: black;*/
+	display: inline-block;
+	position: fixed;
+	z-index: 2;
+}
+
+.main-menu-item {
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.menu-space {
+	width: 96%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+.vertical-line {
+	width: 0.4%;
+	height: 200px;
+	background-color: #aaaaaa;
+	display: inline-block;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+.horizontal-line-container {
+	width: 100%;
+	height: 25px;
+	/*background-color: black;*/
+	display: inline-block;
+	padding: none;
+	margin: none;
+}
+
+.horizontal-line {
+	width: 70%;
+	height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background-color: #aaaaaa;
+}
+
+
+.main-menu-item-text {
+	font-family: code-light;
+	text-decoration: none;
+}
+
+a.menu-link {
+	text-decoration: none;
+}
+
+a.menu-link:hover {
+	color: #0000ff;
+}
+
+h1, .h1 {
+	font-family: exo-light;
+	color: #aaaaaa;
+	font-size: 42px;
+}
+
+h2, .h2 {
+	font-family: exo-light;
+	color: #000000;
+	font-size: 24px;
+}
+
+/* credit: https://stackoverflow.com/questions/1638223/is-there-a-way-to-word-wrap-long-words-in-a-div*/
+.wordwrap { 
+	white-space: pre-wrap;      /* CSS3 */   
+	white-space: -moz-pre-wrap; /* Firefox */    
+	white-space: -pre-wrap;     /* Opera <7 */   
+	white-space: -o-pre-wrap;   /* Opera 7 */    
+	word-wrap: break-word;      /* IE */
+}
+
+.main-content {
+	padding: none;
+	width: 76%;
+	height: 80%;
+	margin-left: 22%;
+	vertical-align: top;
+	display: inline-block;
+	overflow: hidden;
+	z-index: 10;
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.section {
+	height: 800px;				/* default height*/
+	/*background-color: #eeeeee;*/
+	padding: 60px;
+	z-index: 12;
+}
+
+.section.main-page {
+	height: 550px;
+	background-color: #beff9d;
+	z-index: 20;
+	box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.2);
+}
+
+.section.content {
+	background-color: #e3ffd6;
+	z-index: 13;
+	height: 1600px;
+	box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.2);
+}
+
+.section-spacer {
+	height: 200px;
+	z-index: 12;
+}
+.title-section {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.section-head {
+	height: 80px;
+}
+
+.section-body {
+	height: auto;
+}
+
+.text-normal {
+	font-family: sans-serif;
+	font-size: 16px;
+}
